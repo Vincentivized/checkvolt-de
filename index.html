@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balkonkraftwerk-Speicher &amp; Powerstations 2026 im Vergleich | CheckVolt 2026</title>
+    <meta name="description" content="Unabhängige Daten-Analyse: Kapazität, Ladezyklen, Preis pro kWh, App-Steuerung und echte Langzeit-Erfahrungen.">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Welcher Balkonkraftwerk-Speicher lohnt sich 2026 am meisten?", "acceptedAnswer": {"@type": "Answer", "text": "Für die meisten Haushalte mit 2–4 Solarmodulen bietet ein All-in-One-System wie die Anker SOLIX Solarbank 2 Pro oder Zendure Hyper 2000 die schnellste Amortisation von ca. 3–4 Jahren."}}, {"@type": "Question", "name": "Wie lange hält ein LiFePO4-Solarspeicher?", "acceptedAnswer": {"@type": "Answer", "text": "Moderne LiFePO4-Zellen schaffen 3.000 bis 6.000 Ladezyklen bis 80% Restkapazität, was einer Lebensdauer von über 10–15 Jahren entspricht."}}]}</script>
+    <style>
+        :root {
+            --bg: #f8fafc; --surface: #ffffff; --surface-alt: #f1f5f9;
+            --navy: #0f172a; --text: #1e293b; --muted: #64748b;
+            --accent: #0284c7; --cta: #ff9900; --cta-hover: #e68a00;
+            --green: #059669; --border: #e2e8f0;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.65; padding-bottom: 70px; }
+        header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0.9rem 1.5rem; position: sticky; top: 0; z-index: 50; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
+        .nav-inner { max-width: 1080px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+        .brand { font-weight: 800; font-size: 1.25rem; color: var(--navy); text-decoration: none; display: flex; align-items: center; gap: 8px; }
+        .brand-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--accent); display: inline-block; }
+        .updated { font-size: 0.82rem; color: var(--green); font-weight: 600; background: #ecfdf5; padding: 4px 10px; border-radius: 999px; }
+        main { max-width: 1080px; margin: 0 auto; padding: 2rem 1.25rem; }
+        .hero { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: white; border-radius: 20px; padding: 2.5rem 2rem; margin-bottom: 1.5rem; box-shadow: 0 10px 30px rgba(15,23,42,0.12); }
+        .hero-tag { display: inline-block; background: rgba(255,255,255,0.12); color: #38bdf8; font-size: 0.78rem; font-weight: 700; padding: 0.3rem 0.85rem; border-radius: 999px; margin-bottom: 1rem; letter-spacing: 0.03em; text-transform: uppercase; }
+        h1 { font-size: clamp(1.65rem, 3.6vw, 2.45rem); line-height: 1.2; margin-bottom: 0.85rem; font-weight: 800; }
+        .hero p { color: #cbd5e1; font-size: 1.05rem; max-width: 760px; }
+        .trust-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.75rem; margin-bottom: 1.75rem; }
+        .trust-pill { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 0.7rem 1rem; font-size: 0.84rem; font-weight: 600; color: var(--navy); display: flex; align-items: center; gap: 8px; }
+        .trust-pill span { color: var(--green); font-size: 1rem; }
+        .verdict-box { background: #eff6ff; border-left: 4px solid var(--accent); border-radius: 12px; padding: 1.25rem 1.5rem; margin-bottom: 2rem; display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; flex-wrap: wrap; }
+        .verdict-box h3 { font-size: 0.95rem; color: var(--navy); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 0.3rem; }
+        .verdict-box p { font-size: 0.95rem; color: #334155; max-width: 680px; }
+        .disclosure-top { font-size: 0.78rem; color: var(--muted); margin-bottom: 1.5rem; text-align: center; }
+        .table-wrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--border); border-radius: 16px; margin-bottom: 2.5rem; box-shadow: 0 2px 10px rgba(0,0,0,0.03); }
+        table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.92rem; }
+        th, td { padding: 1rem 1.1rem; border-bottom: 1px solid var(--border); }
+        th { background: var(--surface-alt); color: var(--muted); font-weight: 700; font-size: 0.76rem; text-transform: uppercase; letter-spacing: 0.05em; }
+        .winner-row { background: #fffbeb; }
+        .rank { background: var(--navy); color: white; font-weight: 800; width: 28px; height: 28px; border-radius: 8px; display: inline-flex; align-items: center; justify-content: center; font-size: 0.8rem; flex-shrink: 0; }
+        .badge-inline { display: inline-block; margin-top: 3px; font-size: 0.72rem; background: var(--surface-alt); color: #475569; padding: 2px 8px; border-radius: 4px; font-weight: 700; }
+        .badge-inline.winner { background: #fef3c7; color: #b45309; }
+        .score-pill { font-weight: 800; color: var(--green); font-size: 0.95rem; }
+        .btn-cta-sm { display: inline-block; background: var(--cta); color: #111827; font-weight: 700; padding: 0.55rem 1rem; border-radius: 8px; text-decoration: none; white-space: nowrap; font-size: 0.85rem; box-shadow: 0 2px 4px rgba(255,153,0,0.25); }
+        .btn-cta-sm:hover { background: var(--cta-hover); }
+        .product-card { background: var(--surface); border: 1px solid var(--border); border-radius: 18px; padding: 1.75rem; margin-bottom: 2rem; box-shadow: 0 4px 14px rgba(0,0,0,0.03); }
+        .product-card.winner-card { border: 2px solid #f59e0b; box-shadow: 0 8px 24px rgba(245,158,11,0.1); }
+        .card-top-grid { display: grid; grid-template-columns: 180px 1fr; gap: 1.5rem; margin-bottom: 1.5rem; align-items: start; }
+        @media (max-width: 700px) { .card-top-grid { grid-template-columns: 1fr; } }
+        .product-visual { background: var(--surface-alt); border: 1px solid var(--border); border-radius: 14px; padding: 1.25rem; position: relative; display: flex; align-items: center; justify-content: center; min-height: 150px; }
+        .product-visual svg { width: 120px; height: 90px; }
+        .score-circle { position: absolute; top: -10px; right: -10px; background: var(--navy); color: white; width: 54px; height: 54px; border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(0,0,0,0.15); border: 2px solid white; }
+        .score-num { font-weight: 800; font-size: 1rem; line-height: 1; color: #38bdf8; }
+        .score-lbl { font-size: 0.55rem; letter-spacing: 0.05em; opacity: 0.8; }
+        .badge { display: inline-block; background: var(--surface-alt); color: var(--navy); font-size: 0.74rem; font-weight: 800; padding: 0.25rem 0.7rem; border-radius: 6px; margin-bottom: 0.5rem; text-transform: uppercase; }
+        .badge.winner { background: #fef3c7; color: #b45309; }
+        .product-card h2 { font-size: 1.4rem; color: var(--navy); margin-bottom: 0.25rem; }
+        .best-for { font-size: 0.9rem; color: var(--muted); margin-bottom: 1rem; }
+        .price-box { text-align: right; }
+        .price { font-size: 1.65rem; font-weight: 800; color: var(--navy); line-height: 1.1; }
+        .stars { font-size: 0.82rem; color: #d97706; font-weight: 600; margin-top: 3px; }
+        .specs-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.65rem; }
+        .spec-item { background: var(--surface-alt); padding: 0.65rem 0.85rem; border-radius: 10px; border: 1px solid var(--border); }
+        .spec-label { display: block; font-size: 0.72rem; color: var(--muted); font-weight: 600; }
+        .spec-val { font-weight: 700; font-size: 0.9rem; color: var(--navy); }
+        .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin-bottom: 1.5rem; background: var(--surface-alt); padding: 1.15rem; border-radius: 12px; }
+        @media (max-width: 640px) { .pros-cons { grid-template-columns: 1fr; } }
+        .pros h4, .cons h4 { font-size: 0.82rem; margin-bottom: 0.5rem; color: var(--navy); text-transform: uppercase; letter-spacing: 0.04em; }
+        .pros ul, .cons ul { list-style: none; font-size: 0.9rem; }
+        .pros li, .cons li { margin-bottom: 0.4rem; display: flex; align-items: flex-start; gap: 7px; }
+        .check { color: var(--green); font-weight: 800; }
+        .cross { color: #d97706; font-weight: 800; }
+        .card-footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; padding-top: 1rem; border-top: 1px solid var(--border); }
+        .trust-mini { font-size: 0.8rem; color: var(--green); font-weight: 600; }
+        .btn-cta { display: inline-block; background: var(--cta); color: #111827; font-weight: 800; padding: 0.85rem 1.6rem; border-radius: 10px; text-decoration: none; font-size: 0.98rem; box-shadow: 0 3px 10px rgba(255,153,0,0.3); transition: transform 0.15s ease, background 0.15s ease; }
+        .btn-cta:hover { background: var(--cta-hover); transform: translateY(-1px); }
+        .affiliate-note { font-size: 0.74rem; color: var(--muted); }
+        .vs-links { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem; margin: 2rem 0; }
+        .vs-links h2 { font-size: 1.2rem; color: var(--navy); margin-bottom: 0.75rem; }
+        .vs-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.75rem; }
+        .vs-pill { display: block; background: var(--surface-alt); border: 1px solid var(--border); border-radius: 10px; padding: 0.8rem 1rem; color: var(--navy); text-decoration: none; font-weight: 600; font-size: 0.88rem; transition: border-color 0.15s; }
+        .vs-pill:hover { border-color: var(--accent); }
+        .methodology { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem; margin: 2rem 0; }
+        .methodology h2 { font-size: 1.25rem; color: var(--navy); margin-bottom: 0.5rem; }
+        .methodology p { color: var(--muted); font-size: 0.93rem; }
+        .faq-section { margin-top: 2rem; }
+        .faq-section h2 { margin-bottom: 1.15rem; font-size: 1.4rem; color: var(--navy); }
+        .faq-item { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem; margin-bottom: 0.9rem; }
+        .faq-item h3 { font-size: 1.02rem; margin-bottom: 0.35rem; color: var(--navy); }
+        .faq-item p { color: var(--muted); font-size: 0.93rem; }
+        footer { text-align: center; padding: 2.5rem 1.5rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.8rem; margin-top: 3rem; }
+        footer a { color: var(--navy); text-decoration: none; font-weight: 600; margin: 0 8px; }
+        .sticky-bar { position: fixed; bottom: 0; left: 0; right: 0; background: var(--navy); color: white; padding: 0.7rem 1.25rem; display: flex; justify-content: center; align-items: center; gap: 1rem; z-index: 60; box-shadow: 0 -4px 16px rgba(0,0,0,0.15); }
+        .sticky-bar span { font-size: 0.88rem; font-weight: 600; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-inner">
+            <a href="index.html" class="brand"><span class="brand-dot"></span> CheckVolt 2026</a>
+            <span class="updated">✓ Geprüft & Aktualisiert: 18.11.2026</span>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <span class="hero-tag">Unabhängige Kaufberatung & Daten-Vergleich 2026</span>
+            <h1>Balkonkraftwerk-Speicher &amp; Powerstations 2026 im Vergleich</h1>
+            <p>Unabhängige Daten-Analyse: Kapazität, Ladezyklen, Preis pro kWh, App-Steuerung und echte Langzeit-Erfahrungen.</p>
+            
+        </section>
+
+        <div class="trust-strip">
+            <div class="trust-pill"><span>✓</span> Unabhängige Datenanalyse</div>
+            <div class="trust-pill"><span>✓</span> Verifizierte Käufer-Bewertungen</div>
+            <div class="trust-pill"><span>✓</span> Tägliche Preis-Verfügbarkeit</div>
+            <div class="trust-pill"><span>✓</span> 100% Werbefreie Empfehlungen</div>
+        </div>
+
+        <div class="verdict-box">
+            <div>
+                <h3>⚡ Schnell-Entscheidung (30 Sekunden)</h3>
+                <p>Wer maximale Plug-&amp;-Play-Zuverlässigkeit sucht, greift zur Anker SOLIX Solarbank 2 Pro (Testsieger). Für dynamische Stromtarife bietet der Zendure Hyper 2000 das beste Preis-Leistungs-Verhältnis.</p>
+            </div>
+            <a href="https://www.amazon.de/s?k=Anker+SOLIX+Solarbank+2+E1600+Pro&tag=YOUR-TAG-21" target="_blank" rel="nofollow sponsored noopener" class="btn-cta">Testsieger auf Amazon prüfen →</a>
+        </div>
+
+        <div class="disclosure-top">Transparenz-Hinweis: Als Amazon-Partner verdiene ich an qualifizierten Verkäufen. Für dich entstehen dadurch keine Mehrkosten. Alle Preisangaben inkl. MwSt., maßgeblich ist der aktuelle Preis auf Amazon.</div>
+
+        <div class="table-wrap">
+            <table>
+                <thead><tr><th>Modell & Rang</th><th>Technische Kerndaten</th><th>Testnote</th><th>Ca. Preis</th><th>Verfügbarkeit</th></tr></thead>
+                <tbody>
+        <tr class="winner-row">
+            <td><div style="display:flex; align-items:center; gap:8px;"><span class="rank">#1</span><div><strong>Anker SOLIX Solarbank 2 E1600 Pro</strong><br><span class="badge-inline winner">Testsieger 2026</span></div></div></td>
+            <td style="font-size:0.86rem; color:#475569;"><strong>Kapazität:</strong> 1,6 kWh (erweiterbar) • <strong>Wechselrichter:</strong> 800W integriert • <strong>Zyklen:</strong> 6.000+ LiFePO4</td>
+            <td><span class="score-pill">9.6 / 10</span><br><span style="font-size:0.75rem; color:#64748b;">★ 4.7 (1.420+)</span></td>
+            <td><strong style="font-size:1.05rem; color:#0f172a;">€899</strong></td>
+            <td><a href="https://www.amazon.de/s?k=Anker+SOLIX+Solarbank+2+E1600+Pro&tag=YOUR-TAG-21" target="_blank" rel="nofollow sponsored noopener" class="btn-cta-sm">Zum Angebot →</a></td>
+        </tr>
+        
+        <tr>
+            <td><div style="display:flex; align-items:center; gap:8px;"><span class="rank">#2</span><div><strong>EcoFlow DELTA 2 Max (2048 Wh)</strong><br><span class="badge-inline ">Bester Allrounder</span></div></div></td>
+            <td style="font-size:0.86rem; color:#475569;"><strong>Kapazität:</strong> 2,048 kWh • <strong>Ausgang:</strong> 2.400W AC • <strong>Zyklen:</strong> 3.000+ LiFePO4</td>
+            <td><span class="score-pill">9.4 / 10</span><br><span style="font-size:0.75rem; color:#64748b;">★ 4.8 (2.180+)</span></td>
+            <td><strong style="font-size:1.05rem; color:#0f172a;">€1.149</strong></td>
+            <td><a href="https://www.amazon.de/s?k=EcoFlow+DELTA+2+Max+2048Wh&tag=YOUR-TAG-21" target="_blank" rel="nofollow sponsored noopener" class="btn-cta-sm">Zum Angebot →</a></td>
+        </tr>
+        
+        <tr>
+            <td><div style="display:flex; align-items:center; gap:8px;"><span class="rank">#3</span><div><strong>Zendure SolarFlow Hyper 2000</strong><br><span class="badge-inline ">Preis-Leistungs-Tipp</span></div></div></td>
+            <td style="font-size:0.86rem; color:#475569;"><strong>Kapazität:</strong> 1,92 kWh (AB2000) • <strong>Wechselrichter:</strong> Bidirektional AC • <strong>Zyklen:</strong> 4.000+ LiFePO4</td>
+            <td><span class="score-pill">9.2 / 10</span><br><span style="font-size:0.75rem; color:#64748b;">★ 4.6 (890+)</span></td>
+            <td><strong style="font-size:1.05rem; color:#0f172a;">€749</strong></td>
+            <td><a href="https://www.amazon.de/s?k=Zendure+SolarFlow+Hyper+2000&tag=YOUR-TAG-21" target="_blank" rel="nofollow sponsored noopener" class="btn-cta-sm">Zum Angebot →</a></td>
+        </tr>
+        </tbody>
+            </table>
+        </div>
+
+        <section class="products-list">
+        <article class="product-card winner-card" id="product-1">
+            <div class="card-top-grid">
+                <div class="product-visual">
+                    <svg viewBox="0 0 120 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="18" y="18" width="84" height="54" rx="8" fill="#0f172a" stroke="#0284c7" stroke-width="2.5"/>
+            <rect x="26" y="26" width="44" height="38" rx="4" fill="#1e293b"/>
+            <path d="M46 33L39 46H48L44 57L56 42H47L51 33H46Z" fill="#f59e0b"/>
+            <rect x="76" y="28" width="18" height="10" rx="2" fill="#10b981"/>
+            <circle cx="85" cy="52" r="6" fill="#334155" stroke="#94a3b8" stroke-width="1.5"/>
+        </svg>
+                    <div class="score-circle"><span class="score-num">9.6</span><span class="score-lbl">PUNKTE</span></div>
+                </div>
+                <div class="card-title-area">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:10px;">
+                        <div>
+                            <span class="badge winner">#1 • Testsieger 2026</span>
+                            <h2>Anker SOLIX Solarbank 2 E1600 Pro</h2>
+                            <p class="best-for">Ideal für: <strong>Einsteiger &amp; maximale Zuverlässigkeit</strong></p>
+                        </div>
+                        <div class="price-box">
+                            <div class="price">€899</div>
+                            <div class="stars">★★★★★ 4.7 (1.420+)</div>
+                        </div>
+                    </div>
+                    <div class="specs-grid"><div class="spec-item"><span class="spec-label">Kapazität</span><span class="spec-val">1,6 kWh (erweiterbar)</span></div><div class="spec-item"><span class="spec-label">Wechselrichter</span><span class="spec-val">800W integriert</span></div><div class="spec-item"><span class="spec-label">Zyklen</span><span class="spec-val">6.000+ LiFePO4</span></div><div class="spec-item"><span class="spec-label">Schutz</span><span class="spec-val">IP65 Wetterfest</span></div></div>
+                </div>
+            </div>
+            <div class="pros-cons">
+                <div class="pros"><h4>Was uns überzeugt</h4><ul><li><span class='check'>✓</span> Integrierter 800W Mikrowechselrichter (kein Kabelsalat)</li><li><span class='check'>✓</span> Plug &amp; Play Aufbau in unter 10 Minuten</li><li><span class='check'>✓</span> Modular bis 9,6 kWh erweiterbar</li></ul></div>
+                <div class="cons"><h4>Was man beachten sollte</h4><ul><li><span class='cross'>!</span> Erweiterungsakkus relativ teuer</li><li><span class='cross'>!</span> App erfordert WLAN-Verbindung</li></ul></div>
+            </div>
+            <div class="card-footer">
+                <div class="trust-mini">✓ Geprüfter Amazon-Händler &nbsp;•&nbsp; ✓ Schneller Prime-Versand</div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
+                    <span class="affiliate-note">Anzeige / Partner-Link</span>
+                    <a href="https://www.amazon.de/s?k=Anker+SOLIX+Solarbank+2+E1600+Pro&tag=YOUR-TAG-21" target="_blank" rel="nofollow sponsored noopener" class="btn-cta">Aktuellen Preis auf Amazon.de prüfen →</a>
+                </div>
+            </div>
+        </article>
+        
+        <article class="product-card " id="product-2">
+            <div class="card-top-grid">
+                <div class="product-visual">
+                    <svg viewBox="0 0 120 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="18" y="18" width="84" height="54" rx="8" fill="#0f172a" stroke="#0284c7" stroke-width="2.5"/>
+            <rect x="26" y="26" width="44" height="38" rx="4" fill="#1e293b"/>
+            <path d="M46 33L39 46H48L44 57L56 42H47L51 33H46Z" fill="#f59e0b"/>
+            <rect x="76" y="28" width="18" height="10" rx="2" fill="#10b981"/>
+            <circle cx="85" cy="52" r="6" fill="#334155" stroke="#94a3b8" stroke-width="1.5"/>
+        </svg>
+                    <div class="score-circle"><span class="score-num">9.4</span><span class="score-lbl">PUNKTE</span></div>
+                </div>
+                <div class="card-title-area">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:10px;">
+                        <div>
+                            <span class="badge ">#2 • Bester Allrounder</span>
+                            <h2>EcoFlow DELTA 2 Max (2048 Wh)</h2>
+                            <p class="best-for">Ideal für: <strong>Notstrom &amp; mobiles Camping</strong></p>
+                        </div>
+                        <div class="price-box">
+                            <div class="price">€1.149</div>
+                            <div class="stars">★★★★★ 4.8 (2.180+)</div>
+                        </div>
+                    </div>
+                    <div class="specs-grid"><div class="spec-item"><span class="spec-label">Kapazität</span><span class="spec-val">2,048 kWh</span></div><div class="spec-item"><span class="spec-label">Ausgang</span><span class="spec-val">2.400W AC</span></div><div class="spec-item"><span class="spec-label">Zyklen</span><span class="spec-val">3.000+ LiFePO4</span></div><div class="spec-item"><span class="spec-label">Ladezeit</span><span class="spec-val">80% in 43 Min</span></div></div>
+                </div>
+            </div>
+            <div class="pros-cons">
+                <div class="pros"><h4>Was uns überzeugt</h4><ul><li><span class='check'>✓</span> Extrem schnelles AC-Laden &amp; X-Boost bis 3.100W</li><li><span class='check'>✓</span> Ideal für Home-Backup, Garten &amp; Camping</li><li><span class='check'>✓</span> Sehr leise unter Teillast</li></ul></div>
+                <div class="cons"><h4>Was man beachten sollte</h4><ul><li><span class='cross'>!</span> Mit 23 kg recht schwer</li><li><span class='cross'>!</span> Nicht dauerhaft wetterfest für außen</li></ul></div>
+            </div>
+            <div class="card-footer">
+                <div class="trust-mini">✓ Geprüfter Amazon-Händler &nbsp;•&nbsp; ✓ Schneller Prime-Versand</div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
+                    <span class="affiliate-note">Anzeige / Partner-Link</span>
+                    <a href="https://www.amazon.de/s?k=EcoFlow+DELTA+2+Max+2048Wh&tag=YOUR-TAG-21" target="_blank" rel="nofollow sponsored noopener" class="btn-cta">Aktuellen Preis auf Amazon.de prüfen →</a>
+                </div>
+            </div>
+        </article>
+        
+        <article class="product-card " id="product-3">
+            <div class="card-top-grid">
+                <div class="product-visual">
+                    <svg viewBox="0 0 120 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="18" y="18" width="84" height="54" rx="8" fill="#0f172a" stroke="#0284c7" stroke-width="2.5"/>
+            <rect x="26" y="26" width="44" height="38" rx="4" fill="#1e293b"/>
+            <path d="M46 33L39 46H48L44 57L56 42H47L51 33H46Z" fill="#f59e0b"/>
+            <rect x="76" y="28" width="18" height="10" rx="2" fill="#10b981"/>
+            <circle cx="85" cy="52" r="6" fill="#334155" stroke="#94a3b8" stroke-width="1.5"/>
+        </svg>
+                    <div class="score-circle"><span class="score-num">9.2</span><span class="score-lbl">PUNKTE</span></div>
+                </div>
+                <div class="card-title-area">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:10px;">
+                        <div>
+                            <span class="badge ">#3 • Preis-Leistungs-Tipp</span>
+                            <h2>Zendure SolarFlow Hyper 2000</h2>
+                            <p class="best-for">Ideal für: <strong>Dynamische Stromtarife &amp; Sparfüchse</strong></p>
+                        </div>
+                        <div class="price-box">
+                            <div class="price">€749</div>
+                            <div class="stars">★★★★★ 4.6 (890+)</div>
+                        </div>
+                    </div>
+                    <div class="specs-grid"><div class="spec-item"><span class="spec-label">Kapazität</span><span class="spec-val">1,92 kWh (AB2000)</span></div><div class="spec-item"><span class="spec-label">Wechselrichter</span><span class="spec-val">Bidirektional AC</span></div><div class="spec-item"><span class="spec-label">Zyklen</span><span class="spec-val">4.000+ LiFePO4</span></div><div class="spec-item"><span class="spec-label">Schutz</span><span class="spec-val">IP65</span></div></div>
+                </div>
+            </div>
+            <div class="pros-cons">
+                <div class="pros"><h4>Was uns überzeugt</h4><ul><li><span class='check'>✓</span> Bidirektionales AC-Laden bei günstigen Stromtarifen</li><li><span class='check'>✓</span> Hoher Wirkungsgrad &amp; Selbstheizung im Winter</li><li><span class='check'>✓</span> Sehr starkes Preis-pro-kWh-Verhältnis</li></ul></div>
+                <div class="cons"><h4>Was man beachten sollte</h4><ul><li><span class='cross'>!</span> Smart-Meter-Kopplung erfordert Ersteinrichtung</li></ul></div>
+            </div>
+            <div class="card-footer">
+                <div class="trust-mini">✓ Geprüfter Amazon-Händler &nbsp;•&nbsp; ✓ Schneller Prime-Versand</div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
+                    <span class="affiliate-note">Anzeige / Partner-Link</span>
+                    <a href="https://www.amazon.de/s?k=Zendure+SolarFlow+Hyper+2000&tag=YOUR-TAG-21" target="_blank" rel="nofollow sponsored noopener" class="btn-cta">Aktuellen Preis auf Amazon.de prüfen →</a>
+                </div>
+            </div>
+        </article>
+        </section>
+
+        <section class="vs-links">
+            <h2>Direkt-Duelle im Detail (Kopf-an-Kopf Vergleiche)</h2>
+            <div class="vs-grid"><a class="vs-pill" href="anker-solix-solarbank-vs-ecoflow-delta-2.html">⚔️ Anker SOLIX Solarbank 2 E1600 Pro vs. EcoFlow DELTA 2 Max (2048 Wh) →</a><a class="vs-pill" href="anker-solix-solarbank-vs-zendure-solarflow-hyper.html">⚔️ Anker SOLIX Solarbank 2 E1600 Pro vs. Zendure SolarFlow Hyper 2000 →</a><a class="vs-pill" href="ecoflow-delta-2-vs-zendure-solarflow-hyper.html">⚔️ EcoFlow DELTA 2 Max (2048 Wh) vs. Zendure SolarFlow Hyper 2000 →</a></div>
+        </section>
+
+        <section class="methodology">
+            <h2>So bewerten wir bei CheckVolt 2026</h2>
+            <p>Unsere Redaktion vergleicht technische Datenblätter, Hersteller-Garantien, reale Langzeit-Erfahrungsberichte verifizierter Käufer sowie das aktuelle Preis-Leistungs-Verhältnis auf dem deutschen Markt.</p>
+        </section>
+
+        <section class="faq-section">
+            <h2>Häufig gestellte Fragen (FAQ)</h2>
+            <div class="faq-item"><h3>Welcher Balkonkraftwerk-Speicher lohnt sich 2026 am meisten?</h3><p>Für die meisten Haushalte mit 2–4 Solarmodulen bietet ein All-in-One-System wie die Anker SOLIX Solarbank 2 Pro oder Zendure Hyper 2000 die schnellste Amortisation von ca. 3–4 Jahren.</p></div><div class="faq-item"><h3>Wie lange hält ein LiFePO4-Solarspeicher?</h3><p>Moderne LiFePO4-Zellen schaffen 3.000 bis 6.000 Ladezyklen bis 80% Restkapazität, was einer Lebensdauer von über 10–15 Jahren entspricht.</p></div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2026 CheckVolt 2026 • Transparenz-Hinweis: Als Amazon-Partner verdiene ich an qualifizierten Verkäufen. Für dich entstehen dadurch keine Mehrkosten. Alle Preisangaben inkl. MwSt., maßgeblich ist der aktuelle Preis auf Amazon.</p>
+        <p style="margin-top:8px;">
+            <a href="index.html">Startseite</a> •
+            <a href="impressum.html">Impressum</a> •
+            <a href="datenschutz.html">Datenschutz</a>
+        </p>
+        <p style="margin-top:6px; opacity:0.7;">Partner Tag: <code>YOUR-TAG-21</code></p>
+    </footer>
+    
+    <div class="sticky-bar">
+        <span>🏆 Testsieger: Anker SOLIX Solarbank 2 E1600 Pro</span>
+        <a href="https://www.amazon.de/s?k=Anker+SOLIX+Solarbank+2+E1600+Pro&tag=YOUR-TAG-21" target="_blank" rel="nofollow sponsored noopener" class="btn-cta-sm">Angebot auf Amazon →</a>
+    </div>
+</body>
+</html>

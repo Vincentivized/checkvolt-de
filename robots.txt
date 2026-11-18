@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://checkvolt.de/sitemap.xml

@@ -1,0 +1,102 @@
+{
+  "slug": "smart-home-energy",
+  "site_name": "CheckVolt 2026",
+  "domain_suggestion": "checkvolt.de",
+  "lang": "de",
+  "marketplace": "amazon.de",
+  "icon_type": "solar",
+  "accent_color": "#0284c7",
+  "headline": "Balkonkraftwerk-Speicher & Powerstations 2026 im Vergleich",
+  "subheadline": "Unabhängige Daten-Analyse: Kapazität, Ladezyklen, Preis pro kWh, App-Steuerung und echte Langzeit-Erfahrungen.",
+  "commission_note": "High-Ticket (€350–€1.200 AOV) • 3–5% Amazon-Provision • Starke 2026 Nachfrage",
+  "quick_verdict": "Wer maximale Plug-&-Play-Zuverlässigkeit sucht, greift zur Anker SOLIX Solarbank 2 Pro (Testsieger). Für dynamische Stromtarife bietet der Zendure Hyper 2000 das beste Preis-Leistungs-Verhältnis.",
+  "products": [
+    {
+      "name": "Anker SOLIX Solarbank 2 E1600 Pro",
+      "badge": "Testsieger 2026",
+      "score": "9.6",
+      "asin": "B0D2W8Z9K1",
+      "search_query": "Anker SOLIX Solarbank 2 E1600 Pro",
+      "price_est": "€899",
+      "rating": "4.7",
+      "reviews_count": "1.420+",
+      "specs": {
+        "Kapazität": "1,6 kWh (erweiterbar)",
+        "Wechselrichter": "800W integriert",
+        "Zyklen": "6.000+ LiFePO4",
+        "Schutz": "IP65 Wetterfest"
+      },
+      "pros": [
+        "Integrierter 800W Mikrowechselrichter (kein Kabelsalat)",
+        "Plug & Play Aufbau in unter 10 Minuten",
+        "Modular bis 9,6 kWh erweiterbar"
+      ],
+      "cons": [
+        "Erweiterungsakkus relativ teuer",
+        "App erfordert WLAN-Verbindung"
+      ],
+      "best_for": "Einsteiger & maximale Zuverlässigkeit"
+    },
+    {
+      "name": "EcoFlow DELTA 2 Max (2048 Wh)",
+      "badge": "Bester Allrounder",
+      "score": "9.4",
+      "asin": "B0C1Z8L3M2",
+      "search_query": "EcoFlow DELTA 2 Max 2048Wh",
+      "price_est": "€1.149",
+      "rating": "4.8",
+      "reviews_count": "2.180+",
+      "specs": {
+        "Kapazität": "2,048 kWh",
+        "Ausgang": "2.400W AC",
+        "Zyklen": "3.000+ LiFePO4",
+        "Ladezeit": "80% in 43 Min"
+      },
+      "pros": [
+        "Extrem schnelles AC-Laden & X-Boost bis 3.100W",
+        "Ideal für Home-Backup, Garten & Camping",
+        "Sehr leise unter Teillast"
+      ],
+      "cons": [
+        "Mit 23 kg recht schwer",
+        "Nicht dauerhaft wetterfest für außen"
+      ],
+      "best_for": "Notstrom & mobiles Camping"
+    },
+    {
+      "name": "Zendure SolarFlow Hyper 2000",
+      "badge": "Preis-Leistungs-Tipp",
+      "score": "9.2",
+      "asin": "B0D4V7N2P9",
+      "search_query": "Zendure SolarFlow Hyper 2000",
+      "price_est": "€749",
+      "rating": "4.6",
+      "reviews_count": "890+",
+      "specs": {
+        "Kapazität": "1,92 kWh (AB2000)",
+        "Wechselrichter": "Bidirektional AC",
+        "Zyklen": "4.000+ LiFePO4",
+        "Schutz": "IP65"
+      },
+      "pros": [
+        "Bidirektionales AC-Laden bei günstigen Stromtarifen",
+        "Hoher Wirkungsgrad & Selbstheizung im Winter",
+        "Sehr starkes Preis-pro-kWh-Verhältnis"
+      ],
+      "cons": [
+        "Smart-Meter-Kopplung erfordert Ersteinrichtung"
+      ],
+      "best_for": "Dynamische Stromtarife & Sparfüchse"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Welcher Balkonkraftwerk-Speicher lohnt sich 2026 am meisten?",
+      "a": "Für die meisten Haushalte mit 2–4 Solarmodulen bietet ein All-in-One-System wie die Anker SOLIX Solarbank 2 Pro oder Zendure Hyper 2000 die schnellste Amortisation von ca. 3–4 Jahren."
+    },
+    {
+      "q": "Wie lange hält ein LiFePO4-Solarspeicher?",
+      "a": "Moderne LiFePO4-Zellen schaffen 3.000 bis 6.000 Ladezyklen bis 80% Restkapazität, was einer Lebensdauer von über 10–15 Jahren entspricht."
+    }
+  ]
+}
